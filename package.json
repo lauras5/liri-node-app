@@ -20,6 +20,7 @@
     "dotenv": "^5.0.1",
     "node-spotify-api": "^1.0.7",
     "request": "^2.85.0",
+    "requests": "^0.2.2",
     "twitter": "^1.7.1"
   }
 }
