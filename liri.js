@@ -25,71 +25,111 @@ var client = new Twitter({
 
 console.log(command)
 
+// function to request twitter feed
+function tweetFunc() {
+  var params = { screen_name: 'NodeJS_is_life' }
+  var path = 'statuses/user_timeline'
+  //get 
+  client.get(path, params, function (error, tweets, response) {
+    if (!error) {
+      // I don't have 20 tweets, otherwise I would write it as
+      // for (var i = 0; i < 20; i++) {
+      for (var i = 0; i < tweets.length; i++) {
+        var tweetText = tweets[i].text
+        var tweetTime = tweets[i].created_at
+        var input = "\r\nTweet : " + tweetTime + '\r\n' + tweetText + '\r\n'
+        console.log(input)
+        fs.appendFile(outPath, input, function (e) {
+          if (e) { console.log(e) }
+        })
+      }
+    }
+  })
+}
+
+function movieFunc() {
+  var movieURL = 'http://www.omdbapi.com/?apikey=trilogy&t=' + search
+  request.get(movieURL, function (error, response, body) {
+    if (error) {
+      //prints error and response status if there is an error
+      console.log('error:', error)
+      console.log('statusCode:', response && response.statusCode)
+    }
+    var body = JSON.parse(body)
+    // console.log(body)
+    var movieTitle = body.Title
+    var movieYear = body.Year
+    var movieRating = body.imdbRating
+    var movieRotten = body.Ratings[1].Value
+    var movieCountry = body.Country
+    var movieLanguage = body.Language
+    var moviePlot = body.Plot
+    var actors = body.Actors
+
+    input = 'Movie: ' + movieTitle + '\r\nYear: ' + movieYear + '\r\nimdb Rating : ' + movieRating + ' / 10 \r\nRotten Tomatoes Rating : ' + movieRotten + '\r\nLanguage : ' + movieLanguage + '\r\nMovie Plot: ' + moviePlot + '\r\nActors : ' + actors
+    console.log(input)
+    fs.appendFile(outPath, input, function (e) {
+      if (e) { console.log(e) }
+    })
+  });
+}
+
+function spotifyFunc() {
+  
+  //if there is nothing to search, defaults to the sign, ace of base
+  spotify.search({ type: 'track', query: search, limit: 1 }, function (err, data) {
+    //returns error  
+    if (err) {
+      search = 'the sign ace of base'
+      spotifyFunc()
+      return
+      if(err) {
+        console.log('Error: ' + error);
+      }
+    }
+    var songArtist = data.tracks.items[0].artists[0].name
+    var songName = data.tracks.items[0].name
+    var songAlbum = data.tracks.items[0].album.name
+    var songInfo = data.tracks.items[0].external_urls.spotify
+    //console logging the result
+    input = 'Artist: ' + songArtist + '\r\nSong : ' + songName + '\r\nAlbum : ' + songAlbum + '\r\nSong Link on Spotify: ' + songInfo
+    console.log(input)
+
+    fs.appendFile(outPath, input, function (e) {
+      if (e) { console.log(e) }
+    })
+  })
+}
+//start search for spotify, limits search to 1
+
 switch (command) {
   case 'my-tweets':
-    var params = { screen_name: 'NodeJS_is_life' }
-    var path = 'statuses/user_timeline'
-    client.get(path, params, function (error, tweets, response) {
-      if (!error) {
-        for (var i = 0; i < tweets.length; i++) {
-          var tweetText = tweets[i].text
-          var tweetTime = tweets[i].created_at
-          console.log( "\r\nTweet : " + tweetTime + '\r\n' + tweetText + '\r\n')
-          var input = "\r\nTweet : " + tweetTime + '\r\n' + tweetText + '\r\n'
-          fs.appendFile(outPath, input, function(e) {
-            if(e) {console.log(e)}
-        })
-        }
-      }
-    })
+    tweetFunc()
     break;
   case 'spotify-this-song':
-    //if there is nothing to search, defaults to the sign, ace of base
-    // if (search !== true) {
-    //   search = 'the sign ace of base'
-    // }
-    //start search for spotify, limits search to 1
-    spotify.search({ type: 'track', query: search, limit: 1 }, function (err, data) {
-      //returns error  
-      if (err) {
-        return console.log('Error occurred: ' + err);
-      }
-      var songArtist = data.tracks.items[0].artists[0].name
-      var songName = data.tracks.items[0].name
-      var songAlbum = data.tracks.items[0].album.name
-      var songInfo = data.tracks.items[0].external_urls.spotify
-      //console logging the result
-      console.log('Artist: ' + songArtist + '\r\nSong : ' + songName + '\r\nAlbum : ' + songAlbum + '\r\nSong Link on Spotify: ' + songInfo)
-    })
+    spotifyFunc()
     break;
   case 'movie-this':
-    // OMDB
-    var movieURL = 'http://www.omdbapi.com/?apikey=trilogy&t=' + search
-    request.get(movieURL, function (error, response, body) {
-      if (error) {
-        //prints error and response status if there is an error
-        console.log('error:', error)
-        console.log('statusCode:', response && response.statusCode)
-      }
-      var body = JSON.parse(body)
-      // console.log(body)
-      var movieTitle = body.Title
-      var movieYear = body.Year
-      var movieRating = body.imdbRating
-      var movieRotten = body.Ratings[1].Value
-      var movieCountry = body.Country
-      var movieLanguage = body.Language
-      var moviePlot = body.Plot
-      var actors = body.Actors
-
-      console.log('Movie: ' + movieTitle + '\r\nYear: ' + movieYear + '\r\nimdb Rating : ' + movieRating + ' / 10 \r\nRotten Tomatoes Rating : ' + movieRotten + '\r\nLanguage : ' + movieLanguage + '\r\nMovie Plot: ' + moviePlot + '\r\nActors : ' + actors)
-    });
+    movieFunc()
     break;
   case 'do-what-it-says':
     fs.readFile(path, 'utf8', function (e, d) {
       if (e) { console.log(e) }
-      command = d
-      console.log(command)
+      splitCommand = d.split(',')
+      console.log(splitCommand[0])
+      console.log(splitCommand[1])
+      command = splitCommand[0]
+      search = splitCommand[1]
+
+      if (command === 'spotify-this-song') {
+        spotifyFunc()
+      } else if (command === 'movie-this') {
+        movieFunc()
+      } else if (command === 'my-tweets') {
+        tweetFunc()
+      } else {
+        console.log('There is nothing written in the random.txt folder')
+      }
     })
     break;
 }
