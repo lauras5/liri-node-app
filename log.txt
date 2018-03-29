@@ -1,220 +1,53 @@
-
-Tweet : Mon Mar 26 00:41:18 +0000 2018
-RT @jtimberlake: This is the future. So proud to see you all using your voices and marching today. #NeverAgain #MarchforOurLives 
-
-https://…
-
-Tweet : Fri Mar 23 17:30:20 +0000 2018
--Working with Google Maps API-
-
-Me: 'I finally got my code to work!'
-Friend: 'What does it do?'
-Me: 'It uses geoloc… https://t.co/7hv3md1S34
-
-Tweet : Wed Mar 21 18:22:22 +0000 2018
-Every time https://t.co/axa1y4DROI
-
-Tweet : Fri Mar 23 17:33:03 +0000 2018
-Have you ever been asked to write out an algorithm during an interview? If so, which one?!
-
-#tech #programmer… https://t.co/TvKIgsxrhp
-
-Tweet : Wed Mar 21 18:09:47 +0000 2018
-RT @jimmyfallon: I loved Mr. Rogers. Currently a #DanielTiger supporter. Always a #Neighbor. https://t.co/TeMysTZwaF
-
-Tweet : Wed Mar 21 18:07:49 +0000 2018
--Problem with THIS-
-
-Me: Working on JS code, "What is 'this'??"
-Husband : "A laptop?"
-Me: "no! 'This'! 'this'? not… https://t.co/j5ADnrUPTP
-Artist: Céline Dion
-Song : My Heart Will Go On - Love Theme from "Titanic"
-Album : Let's Talk About Love
-Song Link on Spotify: https://open.spotify.com/track/3oEHQmhvFLiE7ZYES0ulzvArtist: Jenni Rivera
-Song : Inolvidable
-Album : Mi Vida Loca
-Song Link on Spotify: https://open.spotify.com/track/7bEZbS1gadU29L5eIwM2gMArtist: Ricky Martin
-Song : Livin' la Vida Loca
-Album : Ricky Martin
-Song Link on Spotify: https://open.spotify.com/track/0Ph6L4l8dYUuXFmb71Ajndspotify-this-song,"I Want it That Way"Artist: Ace of Base
-Song : The Sign
-Album : The Sign (US Album) [Remastered]
-Song Link on Spotify: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNEArtist: The Chainsmokers
-Song : Closer
-Album : Closer
-Song Link on Spotify: https://open.spotify.com/track/7BKLCZ1jbUBVqRi2FVlTVwArtist: Little Big Town
-Song : Rocket Man
-Album : Rocket Man
-Song Link on Spotify: https://open.spotify.com/track/1okfEMGJlkIgguDlkebSKr
-Tweet : Mon Mar 26 00:41:18 +0000 2018
-RT @jtimberlake: This is the future. So proud to see you all using your voices and marching today. #NeverAgain #MarchforOurLives 
-
-https://…
-
-Tweet : Fri Mar 23 17:33:03 +0000 2018
-Have you ever been asked to write out an algorithm during an interview? If so, which one?!
-
-#tech #programmer… https://t.co/TvKIgsxrhp
-
-Tweet : Fri Mar 23 17:30:20 +0000 2018
--Working with Google Maps API-
-
-Me: 'I finally got my code to work!'
-Friend: 'What does it do?'
-Me: 'It uses geoloc… https://t.co/7hv3md1S34
-
-Tweet : Wed Mar 21 18:22:22 +0000 2018
-Every time https://t.co/axa1y4DROI
-
-Tweet : Wed Mar 21 18:09:47 +0000 2018
-RT @jimmyfallon: I loved Mr. Rogers. Currently a #DanielTiger supporter. Always a #Neighbor. https://t.co/TeMysTZwaF
-
-Tweet : Wed Mar 21 18:07:49 +0000 2018
--Problem with THIS-
-
-Me: Working on JS code, "What is 'this'??"
-Husband : "A laptop?"
-Me: "no! 'This'! 'this'? not… https://t.co/j5ADnrUPTP
-Artist: Billy Currington
-Song : Do I Make You Wanna
-Album : Summer Forever
-Song Link on Spotify: https://open.spotify.com/track/3I7krC8kr0gFR7P6vInR1IArtist: Rihanna
-Song : Work
-Album : ANTI
-Song Link on Spotify: https://open.spotify.com/track/32lmL4vQAAotg6MrJnhlQZspotify-this-song,"I Want it That Way"Artist: MadeinTYO
-Song : Skateboard P (feat. Big Sean)
-Album : Skateboard P (feat. Big Sean)
-Song Link on Spotify: https://open.spotify.com/track/07pJdL0L9XDGW0HBj0rIS2Artist: MadeinTYO
-Song : Skateboard P (feat. Big Sean)
-Album : Skateboard P (feat. Big Sean)
-Song Link on Spotify: https://open.spotify.com/track/07pJdL0L9XDGW0HBj0rIS2Artist: MadeinTYO
-Song : Skateboard P (feat. Big Sean)
-Album : Skateboard P (feat. Big Sean)
-Song Link on Spotify: https://open.spotify.com/track/07pJdL0L9XDGW0HBj0rIS2Artist: MadeinTYO
-Song : Skateboard P (feat. Big Sean)
-Album : Skateboard P (feat. Big Sean)
-Song Link on Spotify: https://open.spotify.com/track/07pJdL0L9XDGW0HBj0rIS2Movie: O
-Year: 2001
-imdb Rating : 6.2 / 10 
-Rotten Tomatoes Rating : 64%
+Movie: Matilda
+Year: 1996
+imdb Rating : 6.9 / 10 
+Rotten Tomatoes Rating : 90%
+Country : USA
 Language : English
-Movie Plot: An update of Shakespeare's 'Othello' with a young cast, set in an upper class prep school, & centered around basketball player Odin.
-Actors : Mekhi Phifer, Martin Sheen, Josh Hartnett, Andrew KeeganMovie: O
-Year: 2001
-imdb Rating : 6.2 / 10 
-Rotten Tomatoes Rating : 64%
+Movie Plot: Story of a wonderful little girl, who happens to be a genius, and her wonderful teacher vs. the worst parents ever and the worst school principal imaginable.
+Actors : Mara Wilson, Danny DeVito, Rhea Perlman, Embeth DavidtzMovie: Mr. Nobody
+Year: 2009
+imdb Rating : 7.9 / 10 
+Rotten Tomatoes Rating : 66%
+Country : Belgium, Germany, Canada, France, USA, UK
+Language : English, Mohawk
+Movie Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors : Jared Leto, Sarah Polley, Diane Kruger, Linh Dan PhamMovie: Mr. Nobody
+Year: 2009
+imdb Rating : 7.9 / 10 
+Rotten Tomatoes Rating : 66%
+Country : Belgium, Germany, Canada, France, USA, UK
+Language : English, Mohawk
+Movie Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors : Jared Leto, Sarah Polley, Diane Kruger, Linh Dan PhamMovie: Matilda
+Year: 1996
+imdb Rating : 6.9 / 10 
+Rotten Tomatoes Rating : 90%
+Country : USA
 Language : English
-Movie Plot: An update of Shakespeare's 'Othello' with a young cast, set in an upper class prep school, & centered around basketball player Odin.
-Actors : Mekhi Phifer, Martin Sheen, Josh Hartnett, Andrew KeeganMovie: Titanic
-Year: 1997
-imdb Rating : 7.8 / 10 
-Rotten Tomatoes Rating : 88%
-Language : English, Swedish
-Movie Plot: A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
-Actors : Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy BatesArtist: Mariah Carey
-Song : Forever
-Album : Daydream
-Song Link on Spotify: https://open.spotify.com/track/74EIDs3yEsMR1gcUmFD4FBArtist: Backstreet Boys
-Song : I Want It That Way
-Album : The Hits--Chapter One
-Song Link on Spotify: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
-Tweet : Mon Mar 26 00:41:18 +0000 2018
-RT @jtimberlake: This is the future. So proud to see you all using your voices and marching today. #NeverAgain #MarchforOurLives 
-
-https://…
-
-Tweet : Fri Mar 23 17:33:03 +0000 2018
-Have you ever been asked to write out an algorithm during an interview? If so, which one?!
-
-#tech #programmer… https://t.co/TvKIgsxrhp
-
-Tweet : Fri Mar 23 17:30:20 +0000 2018
--Working with Google Maps API-
-
-Me: 'I finally got my code to work!'
-Friend: 'What does it do?'
-Me: 'It uses geoloc… https://t.co/7hv3md1S34
-
-Tweet : Wed Mar 21 18:22:22 +0000 2018
-Every time https://t.co/axa1y4DROI
-
-Tweet : Wed Mar 21 18:09:47 +0000 2018
-RT @jimmyfallon: I loved Mr. Rogers. Currently a #DanielTiger supporter. Always a #Neighbor. https://t.co/TeMysTZwaF
-
-Tweet : Wed Mar 21 18:07:49 +0000 2018
--Problem with THIS-
-
-Me: Working on JS code, "What is 'this'??"
-Husband : "A laptop?"
-Me: "no! 'This'! 'this'? not… https://t.co/j5ADnrUPTP
-Artist: Billy Currington
-Song : Do I Make You Wanna
-Album : Summer Forever
-Song Link on Spotify: https://open.spotify.com/track/3I7krC8kr0gFR7P6vInR1IArtist: Musical Creations Karaoke
-Song : Forever (Originally Performed by Mariah Carey) [Karaoke Version]
-Album : Forever (Originally Performed by Mariah Carey) [Karaoke Version]
-Song Link on Spotify: https://open.spotify.com/track/4Fpf6OMoajqKlDjNnPxKGwArtist: Musical Creations Karaoke
-Song : Forever (Originally Performed by Mariah Carey) [Karaoke Version]
-Album : Forever (Originally Performed by Mariah Carey) [Karaoke Version]
-Song Link on Spotify: https://open.spotify.com/track/4Fpf6OMoajqKlDjNnPxKGwArtist: Thomas Rhett
-Song : Make Me Wanna
-Album : It Goes Like This
-Song Link on Spotify: https://open.spotify.com/track/69DR48pXzSabFUfQfDDJDbArtist: Jeremih
-Song : oui
-Album : Late Nights: The Album
-Song Link on Spotify: https://open.spotify.com/track/0PJIbOdMs3bd5AT8liULMQArtist: Backstreet Boys
-Song : I Want It That Way
-Album : The Hits--Chapter One
-Song Link on Spotify: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6Artist: Backstreet Boys
-Song : I Want It That Way
-Album : The Hits--Chapter One
-Song Link on Spotify: https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6Artist: Ty Dolla $ign
-Song : Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) - Remix
-Album : Or Nah (feat. The Weeknd, Wiz Khalifa and DJ Mustard) [Remix Version]
-Song Link on Spotify: https://open.spotify.com/track/7t2bFihaDvhIrd2gn2CWJOArtist: Ace of Base
-Song : The Sign
-Album : The Sign (US Album) [Remastered]
-Song Link on Spotify: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNEArtist: Ace of Base
-Song : The Sign
-Album : The Sign (US Album) [Remastered]
-Song Link on Spotify: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNEArtist: Ace of Base
-Song : The Sign
-Album : The Sign (US Album) [Remastered]
-Song Link on Spotify: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNEArtist: Ace of Base
-Song : The Sign
-Album : The Sign (US Album) [Remastered]
-Song Link on Spotify: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNEArtist: Billy Currington
-Song : Do I Make You Wanna
-Album : Summer Forever
-Song Link on Spotify: https://open.spotify.com/track/3I7krC8kr0gFR7P6vInR1IArtist: Musical Creations Karaoke
-Song : Forever (Originally Performed by Mariah Carey) [Karaoke Version]
-Album : Forever (Originally Performed by Mariah Carey) [Karaoke Version]
-Song Link on Spotify: https://open.spotify.com/track/4Fpf6OMoajqKlDjNnPxKGwArtist: Dylan Schneider
-Song : Wannabe
-Album : Wannabe - EP
-Song Link on Spotify: https://open.spotify.com/track/3q4uqM3vBuYRD9Oq4tLVJuArtist: Banni Behr
-Song : Wannabe (If You Wanna Be My Lover)
-Album : Wannabe
-Song Link on Spotify: https://open.spotify.com/track/3NI23ASJYCc8UXXM5uJ1ukArtist: Missy Five
-Song : Wannabe (From "Spice Girls – The Movie”)
-Album : 90s Movie Hits – The Greatest 90s Music from the Movies, Cinema & Film
-Song Link on Spotify: https://open.spotify.com/track/0xN9gQsomyw7DBv3bwqFHdArtist: hopeless
-Song : Crawling - Linkin Park Cover Version
-Album : Believe
-Song Link on Spotify: https://open.spotify.com/track/3GYyS9S4BwF3msSvsvYBQVArtist: Linkin Park
-Song : Crawling
-Album : Hybrid Theory (Bonus Track Version)
-Song Link on Spotify: https://open.spotify.com/track/57BrRMwf9LrcmuOsyGilwrArtist: Linkin Park
-Song : Crawling
-Album : Hybrid Theory (Bonus Track Version)
-Song Link on Spotify: https://open.spotify.com/track/57BrRMwf9LrcmuOsyGilwrArtist: Linkin Park
-Song : Crawling
-Album : Hybrid Theory (Bonus Track Version)
-Song Link on Spotify: https://open.spotify.com/track/57BrRMwf9LrcmuOsyGilwrArtist: Billy Currington
-Song : Do I Make You Wanna
-Album : Summer Forever
-Song Link on Spotify: https://open.spotify.com/track/3I7krC8kr0gFR7P6vInR1IArtist: Ace of Base
+Movie Plot: Story of a wonderful little girl, who happens to be a genius, and her wonderful teacher vs. the worst parents ever and the worst school principal imaginable.
+Actors : Mara Wilson, Danny DeVito, Rhea Perlman, Embeth DavidtzMovie: Mr. Nobody
+Year: 2009
+imdb Rating : 7.9 / 10 
+Rotten Tomatoes Rating : 66%
+Country : Belgium, Germany, Canada, France, USA, UK
+Language : English, Mohawk
+Movie Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors : Jared Leto, Sarah Polley, Diane Kruger, Linh Dan PhamMovie: Mr. Nobody
+Year: 2009
+imdb Rating : 7.9 / 10 
+Rotten Tomatoes Rating : 66%
+Country : Belgium, Germany, Canada, France, USA, UK
+Language : English, Mohawk
+Movie Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors : Jared Leto, Sarah Polley, Diane Kruger, Linh Dan PhamMovie: Matilda
+Year: 1996
+imdb Rating : 6.9 / 10 
+Rotten Tomatoes Rating : 90%
+Country : USA
+Language : English
+Movie Plot: Story of a wonderful little girl, who happens to be a genius, and her wonderful teacher vs. the worst parents ever and the worst school principal imaginable.
+Actors : Mara Wilson, Danny DeVito, Rhea Perlman, Embeth DavidtzArtist: Ace of Base
 Song : The Sign
 Album : The Sign (US Album) [Remastered]
 Song Link on Spotify: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE

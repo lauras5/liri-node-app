@@ -48,15 +48,18 @@ function tweetFunc() {
 }
 
 function movieFunc() {
+  if (search[0] == undefined) {search = 'mr.nobody'}
+  console.log(search[0])
   var movieURL = 'http://www.omdbapi.com/?apikey=trilogy&t=' + search
   request.get(movieURL, function (error, response, body) {
     if (error) {
+      search = 'Mr. Nobody'
+      movieFunc()
       //prints error and response status if there is an error
-      console.log('error:', error)
       console.log('statusCode:', response && response.statusCode)
+      console.log('error:', error)
     }
-    var body = JSON.parse(body)
-    // console.log(body)
+    var body = JSON.parse(response.body)
     var movieTitle = body.Title
     var movieYear = body.Year
     var movieRating = body.imdbRating
@@ -66,8 +69,10 @@ function movieFunc() {
     var moviePlot = body.Plot
     var actors = body.Actors
 
-    input = 'Movie: ' + movieTitle + '\r\nYear: ' + movieYear + '\r\nimdb Rating : ' + movieRating + ' / 10 \r\nRotten Tomatoes Rating : ' + movieRotten + '\r\nLanguage : ' + movieLanguage + '\r\nMovie Plot: ' + moviePlot + '\r\nActors : ' + actors
+    input = 'Movie: ' + movieTitle + '\r\nYear: ' + movieYear + '\r\nimdb Rating : ' + movieRating + ' / 10 \r\nRotten Tomatoes Rating : ' + movieRotten + '\r\nCountry : ' + movieCountry + '\r\nLanguage : ' + movieLanguage + '\r\nMovie Plot: ' + moviePlot + '\r\nActors : ' + actors
+
     console.log(input)
+
     fs.appendFile(outPath, input, function (e) {
       if (e) { console.log(e) }
     })
@@ -75,22 +80,20 @@ function movieFunc() {
 }
 
 function spotifyFunc() {
-  
+  if (search[0] == undefined) {search = 'the sign ace of base'}
   //if there is nothing to search, defaults to the sign, ace of base
   spotify.search({ type: 'track', query: search, limit: 1 }, function (err, data) {
     //returns error  
     if (err) {
-      search = 'the sign ace of base'
-      spotifyFunc()
+      console.log('Error: ' + error);
       return
-      if(err) {
-        console.log('Error: ' + error);
-      }
     }
+
     var songArtist = data.tracks.items[0].artists[0].name
     var songName = data.tracks.items[0].name
     var songAlbum = data.tracks.items[0].album.name
     var songInfo = data.tracks.items[0].external_urls.spotify
+
     //console logging the result
     input = 'Artist: ' + songArtist + '\r\nSong : ' + songName + '\r\nAlbum : ' + songAlbum + '\r\nSong Link on Spotify: ' + songInfo
     console.log(input)
